@@ -1,0 +1,112 @@
+{
+	"info": {
+		"_postman_id": "6611c119-7b51-4add-bddd-0fd7e1f99f16",
+		"name": "DigiNodeAuth",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "signup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\":\"digisparsh\",\r\n  \"email\":\"connect@digisparsh.in\",\r\n  \"password\":\"Digisparsh@123\",\r\n  \"role\": \"Admin\",\r\n  \"address\": [{\r\n  \"street\": \"kanch mandir\",\r\n  \"state\": \"mandhya pradesh\",\r\n  \"city\": \"Bupur\",\r\n  \"pinCode\": \"450331\",\r\n  \"country\": \"India\"}],\r\n  \"mobileNumber\": \"8602946099\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3061/api/auth/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3061",
+					"path": [
+						"api",
+						"auth",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "signIn",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\":\"connect@digisparsh.in\",\r\n  \"password\":\"Digisparsh@123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3061/api/auth/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3061",
+					"path": [
+						"api",
+						"auth",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "logout",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "isAuth",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJkaWdpc3BhcnNoIiwiZXhwIjoxNjQ3MTgwMTQzLjg2MywiaWF0IjoxNjQxOTk2MTQzfQ.oG6aM2WuK1Lt4QRqh8TIxekPKLzx7-avru0GoHVdyxo",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3051/api/auth/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3051",
+					"path": [
+						"api",
+						"auth",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "imageKit",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "getLoanByKoCode",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,2007 @@
+{
+	"info": {
+		"_postman_id": "faa80ac0-648c-4015-bc0d-7e6d1acddee7",
+		"name": "DigiNodeUser",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Aggregator",
+			"item": [
+				{
+					"name": "getDashboardForAggregator",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJkaWdpc3BhcnNoIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDc4NDQ0NjQuOTIxLCJpYXQiOjE2NDI2NjA0NjR9.KcmFFng1PKfFh57mL0660QKA2Hny4pjHe9ibMmSIOJQ",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/aggregator/getDashboardForAggregator",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"aggregator",
+								"getDashboardForAggregator"
+							],
+							"query": [
+								{
+									"key": "_id",
+									"value": "61dedce68134614fac2d24cc",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getInvoiceGraphToAggregator",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJkaWdpc3BhcnNoIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDc4NDQ0NjQuOTIxLCJpYXQiOjE2NDI2NjA0NjR9.KcmFFng1PKfFh57mL0660QKA2Hny4pjHe9ibMmSIOJQ",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/aggregator/getInvoiceGraphToAggregator",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"aggregator",
+								"getInvoiceGraphToAggregator"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAggregatorGraphAmount",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJkaWdpc3BhcnNoIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDc4NDQ0NjQuOTIxLCJpYXQiOjE2NDI2NjA0NjR9.KcmFFng1PKfFh57mL0660QKA2Hny4pjHe9ibMmSIOJQ",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/aggregator/getAggregatorGraphAmount",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"aggregator",
+								"getAggregatorGraphAmount"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAggregatorGraphOne",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJkaWdpc3BhcnNoIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDc4NDQ0NjQuOTIxLCJpYXQiOjE2NDI2NjA0NjR9.KcmFFng1PKfFh57mL0660QKA2Hny4pjHe9ibMmSIOJQ",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/aggregator/getAggregatorGraphOne",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"aggregator",
+								"getAggregatorGraphOne"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getSecondPieGraphForAggregator",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJkaWdpc3BhcnNoIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDc4NDQ0NjQuOTIxLCJpYXQiOjE2NDI2NjA0NjR9.KcmFFng1PKfFh57mL0660QKA2Hny4pjHe9ibMmSIOJQ",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/aggregator/getSecondPieGraphForAggregator",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"aggregator",
+								"getSecondPieGraphForAggregator"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addHospitalByAggregator",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJkaWdpc3BhcnNoIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDc4NDQ0NjQuOTIxLCJpYXQiOjE2NDI2NjA0NjR9.KcmFFng1PKfFh57mL0660QKA2Hny4pjHe9ibMmSIOJQ",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"cishospital\",\r\n    \"email\": \"cis@gmail.com\",\r\n    \"CINNumber\": \"122334851fd5\",\r\n    \"contactPerson\": \"sunilsharma\",\r\n    \"GSTNumber\": \"987654fgf321\",\r\n    \"mobileNumber\": 8770132674,\r\n    \"GSTcertificate\": \"yes\",\r\n    \"AddressProofoftheHospital\": \"yes\",\r\n    \"PANNumber\": \"12345678\",\r\n    \"address\": [{}],\r\n    \"role\" : \"Aggregator\",\r\n    \"password\": \"jay@456\",\r\n    \"DateOfRegistration\": \"1-05-2021\",\r\n    \"HospitalRegistrationCertificate\": \"yes\",\r\n    \"AggregetorLoan\": \"yes\",\r\n    \"HospitalLoan\": \"complete\",\r\n    \"AggregetorROI\": \"done\",\r\n    \"HospitalROI\": \"complete\",\r\n    \"isSplit\": \"false\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3063/api/aggregator/addHospitalByAggregator",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"aggregator",
+								"addHospitalByAggregator"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAllHospitalToAggregator",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJkaWdpc3BhcnNoIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDc4NDQ0NjQuOTIxLCJpYXQiOjE2NDI2NjA0NjR9.KcmFFng1PKfFh57mL0660QKA2Hny4pjHe9ibMmSIOJQ",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/aggregator/getAllHospitalToAggregator",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"aggregator",
+								"getAllHospitalToAggregator"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "splitForAgri",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJkaWdpc3BhcnNoIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDc4NDQ0NjQuOTIxLCJpYXQiOjE2NDI2NjA0NjR9.KcmFFng1PKfFh57mL0660QKA2Hny4pjHe9ibMmSIOJQ",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"HospitalROI\": \"5\",\r\n    \"AggregetorLoan\": \"5\",\r\n    \"HospitalLoan\": \"5\",\r\n    \"AggregeorId\": \"61dedce68134614fac2d24cc\"\r\n} ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3063/api/aggregator/splitForAgri",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"aggregator",
+								"splitForAgri"
+							],
+							"query": [
+								{
+									"key": "_id",
+									"value": "61dedce68134614fac2d24cc",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getHospitalByIdToAggregator",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJkaWdpc3BhcnNoIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDc5MzM1NDcuODg3LCJpYXQiOjE2NDI3NDk1NDd9.fmfFUhpnKjt0GXYL5rS2jArxgX6rMIRZZpm5PsBjhRY",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/aggregator/getHospitalByIdToAggregator?_id=61dedce68134614fac2d24cc",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"aggregator",
+								"getHospitalByIdToAggregator"
+							],
+							"query": [
+								{
+									"key": "_id",
+									"value": "61dedce68134614fac2d24cc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getByIdToAggregator",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJkaWdpc3BhcnNoIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDc5MzM1NDcuODg3LCJpYXQiOjE2NDI3NDk1NDd9.fmfFUhpnKjt0GXYL5rS2jArxgX6rMIRZZpm5PsBjhRY",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/aggregator/getByIdToAggregator?_id=61dedce68134614fac2d24cc",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"aggregator",
+								"getByIdToAggregator"
+							],
+							"query": [
+								{
+									"key": "_id",
+									"value": "61dedce68134614fac2d24cc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "editAggregatorProfile",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJkaWdpc3BhcnNoIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDc5MzM1NDcuODg3LCJpYXQiOjE2NDI3NDk1NDd9.fmfFUhpnKjt0GXYL5rS2jArxgX6rMIRZZpm5PsBjhRY",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"garvit\",\r\n    \"mobileNumber\": 8520116598,\r\n    \"address\": [{}],\r\n    \"TotalNoOfHospital\": 4,\r\n    \"NoOfTPAsAssociated\": 4,\r\n    \"NoOfClaimProcessedInAYear\":4,\r\n    \"totalValueofClaimsProcessed\":4,\r\n    \"AverageTicketSizeOfTheClaims\":4,\r\n    \"NoOfDirectInsuranceCompaniesAssociated\":4,\r\n    \"AccountName\":\"garvit\",\r\n    \"AccountNumber\":4546897456,\r\n    \"NameOfTheBank\":\"BankOfIndia\",\r\n    \"IFSCcode\":44897454,\r\n    \"Branch\":\"Inodore\",\r\n    \"PANNumber\":4545454,\r\n    \"PANcardUrl\":\"jkdjf@gmail.com\",\r\n    \"AttachedDocUrl\":\"jkldjfkjkljf\",\r\n    \"CINNumber\":\"44545454545\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3063/api/aggregator/editAggregatorProfile?_id=61dedce68134614fac2d24cc",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"aggregator",
+								"editAggregatorProfile"
+							],
+							"query": [
+								{
+									"key": "_id",
+									"value": "61dedce68134614fac2d24cc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getInvoiceByIdToAggregator",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJkaWdpc3BhcnNoIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDc4NDQ0NjQuOTIxLCJpYXQiOjE2NDI2NjA0NjR9.KcmFFng1PKfFh57mL0660QKA2Hny4pjHe9ibMmSIOJQ",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/aggregator/getInvoiceByIdToAggregator?_id=61dedce68134614fac2d24cc",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"aggregator",
+								"getInvoiceByIdToAggregator"
+							],
+							"query": [
+								{
+									"key": "_id",
+									"value": "61dedce68134614fac2d24cc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAllInvoicebyHospitalToAggregator",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJkaWdpc3BhcnNoIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDc4NDQ0NjQuOTIxLCJpYXQiOjE2NDI2NjA0NjR9.KcmFFng1PKfFh57mL0660QKA2Hny4pjHe9ibMmSIOJQ",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/aggregator/getAllInvoicebyHospitalToAggregator",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"aggregator",
+								"getAllInvoicebyHospitalToAggregator"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getRepaidInvoiceToAggregator",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJkaWdpc3BhcnNoIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDc4NDQ0NjQuOTIxLCJpYXQiOjE2NDI2NjA0NjR9.KcmFFng1PKfFh57mL0660QKA2Hny4pjHe9ibMmSIOJQ",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/aggregator/getRepaidInvoiceToAggregator",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"aggregator",
+								"getRepaidInvoiceToAggregator"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getFundedInvoiceToAggregatorV1",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJkaWdpc3BhcnNoIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDc4NDQ0NjQuOTIxLCJpYXQiOjE2NDI2NjA0NjR9.KcmFFng1PKfFh57mL0660QKA2Hny4pjHe9ibMmSIOJQ",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/aggregator/getFundedInvoiceToAggregatorV1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"aggregator",
+								"getFundedInvoiceToAggregatorV1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updatePassword",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJkaWdpc3BhcnNoIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDc4NDQ0NjQuOTIxLCJpYXQiOjE2NDI2NjA0NjR9.KcmFFng1PKfFh57mL0660QKA2Hny4pjHe9ibMmSIOJQ",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"password\": \"jay@456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3063/api/aggregator/updatePassword?_id=61dedce68134614fac2d24cc",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"aggregator",
+								"updatePassword"
+							],
+							"query": [
+								{
+									"key": "_id",
+									"value": "61dedce68134614fac2d24cc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "editHospitalProfileByAggregator",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJkaWdpc3BhcnNoIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDc5MzM1NDcuODg3LCJpYXQiOjE2NDI3NDk1NDd9.fmfFUhpnKjt0GXYL5rS2jArxgX6rMIRZZpm5PsBjhRY",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"jay\",\r\n    \"GSTNumber\": \"56456456456454\",\r\n    \"DateOfRegistration\": \"05-05-2021\", \r\n    \"PANNumber\":\"4585485845454\",\r\n    \"NoOfClaimProcessedInAYear\": 4,\r\n    \"TotalNoOfClaimProcessed\": 4, \r\n    \"AverageTicketSizeOfTheClaims\": 3,\r\n    \"NoOfTPAsAssociated\": 5, \r\n    \"NoOfDirectInsuranceCompaniesAssociated\": 4,\r\n    \"DoYouHaveAnExistingWorkingCapitalLoan\": \"yes\",\r\n    \"ExistingCreditLimit\": 5, \r\n    \"CINNumber\": \"5dfdf5454564544\",\r\n    \"mobileNumber\": 8770132649,\r\n    \"address\": [{}],\r\n    \"AccountName\": \"saving\",\r\n    \"AccountNumber\": 5469874162471632,\r\n    \"NameOfTheBank\": \"BankOfBaroda\",\r\n    \"IFSCcode\": 56467454156457,\r\n    \"Branch\": \"Bpur\",\r\n    \"contactPerson\": \"pushpa\", \r\n    \"NameOfDirector\":  \"2\",\r\n    \"DirectorPANNumber\":\"56454f4564564f654\",\r\n    \"ContactNumberOfDirector\": \"6564544445\",\r\n    \"DirectorEmail\": \"Derector@gmail.com\",\r\n    \"GSTUrl\": \"jgyayeyahoocom\",\r\n    \"AddressDocUrl\": \"jkfjidjfdjjfkjiojf\",\r\n    \"RegCertificateUrl\":\"jfkldjfklkljf5dfj\",\r\n    \"FinancialStUrl\": \"dfjdjfdhhjkldfn\",\r\n    \"NOCextUrl\": \"dfjdkfjiouedofjf\",\r\n    \"TwoYearBankStUrl\": \"fhdfdlj@gmail.com\",\r\n    \"TwoyearTTRUrl\": \"www/gmail.com\",\r\n    \"otherUrl\": \"dfojdiofjidjf\",\r\n    \"AadharDocUrl\": \"dfjdslkfjkljf\",\r\n    \"AadharNumber\": 124512451245, \r\n    \"conDetailDirUrl\": \"jdklfjdklfjkljf\",\r\n    \"KYCDocUrl\": \"dsjdioejskfdnf\",\r\n    \"escrowAccountName\": \"saving\",\r\n    \"escrowBranch\": \"noindia\",\r\n    \"escrowIFSCcode\": \"dsfjhiof654564dfd\",\r\n    \"escrowNameOfTheBank\": \"HDFC\",\r\n    \"escrowAccountNumber\": 4547845123156484, \r\n    \"ParriPassuUrl\": \"jdfiojdfjsiodfji\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3063/api/aggregator/editHospitalProfileByAggregator?_id=61dedce68134614fac2d24cc",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"aggregator",
+								"editHospitalProfileByAggregator"
+							],
+							"query": [
+								{
+									"key": "_id",
+									"value": "61dedce68134614fac2d24cc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteHospitalByAggregator",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3063/api/aggregator/deleteHospitalByAggregator?_id=61dedce68134614fac2d24cc",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"aggregator",
+								"deleteHospitalByAggregator"
+							],
+							"query": [
+								{
+									"key": "_id",
+									"value": "61dedce68134614fac2d24cc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "aggregatorInvoices",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJkaWdpc3BhcnNoIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDc5MzM1NDcuODg3LCJpYXQiOjE2NDI3NDk1NDd9.fmfFUhpnKjt0GXYL5rS2jArxgX6rMIRZZpm5PsBjhRY",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/aggregator/aggregatorInvoices",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"aggregator",
+								"aggregatorInvoices"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getInsurance",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJkaWdpc3BhcnNoIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDc5MzM1NDcuODg3LCJpYXQiOjE2NDI3NDk1NDd9.fmfFUhpnKjt0GXYL5rS2jArxgX6rMIRZZpm5PsBjhRY",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/aggregator/getInsurance",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"aggregator",
+								"getInsurance"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getTPAwithInsurer",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJkaWdpc3BhcnNoIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDc5MzM1NDcuODg3LCJpYXQiOjE2NDI3NDk1NDd9.fmfFUhpnKjt0GXYL5rS2jArxgX6rMIRZZpm5PsBjhRY",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/aggregator/getTPAwithInsurer",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"aggregator",
+								"getTPAwithInsurer"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "invoiceUploadagv1",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJkaWdpc3BhcnNoIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDc5MzM1NDcuODg3LCJpYXQiOjE2NDI3NDk1NDd9.fmfFUhpnKjt0GXYL5rS2jArxgX6rMIRZZpm5PsBjhRY",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nameOfHospital\": \"NehruHospital\",\r\n    \"TPAName\": \"DontKnow\",\r\n    \"insurerAprovedAmount\": 5000, \r\n    \"InsuranceCompanyName\": \"LIC\",\r\n    \"claimId\": \"jay123\", \r\n    \"nameOfInsurer\": \"JaiPrakashSingh\",\r\n    \"finalBillNumber\": \"88712356\",\r\n    \"nameOfTPA\": \"DontKnow\",\r\n    \"policyNumber\": \"546321987\",\r\n    \"hospitalId\": \"61dedce68134614fac2d24cc\",\r\n    \"invoiceId\": \"jaye1234\",\r\n    \"invoiceDocumentUrl\": \"UrlDontKnow\",\r\n    \"insuranceApprovalLetter\": \"Yes\",\r\n    \"claimAmount\": 4568,  \r\n    \"Description\": \"DesDontKnow\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3063/api/aggregator/invoiceUploadagv1?_id=61dedce68134614fac2d24cc",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"aggregator",
+								"invoiceUploadagv1"
+							],
+							"query": [
+								{
+									"key": "_id",
+									"value": "61dedce68134614fac2d24cc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getCity",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJnYXJ2aXQiLCJvcmdhbml6YXRpb25JZCI6IjYxNTZlMDZkOTVjZDYwMDZkY2NjMTZlMSIsImV4cCI6MTY0ODE4MzAzMi45MjgsImlhdCI6MTY0Mjk5OTAzMn0.1hxKAIQpMzve8QGPb2TvQqtSGXd4tr--bgcBciB5jNo",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/aggregator/getCity",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"aggregator",
+								"getCity"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "buildupdatetorepaument",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJkaWdpc3BhcnNoIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDc5MzM1NDcuODg3LCJpYXQiOjE2NDI3NDk1NDd9.fmfFUhpnKjt0GXYL5rS2jArxgX6rMIRZZpm5PsBjhRY",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"_ids\": [{}],\r\n    \"PaymentReceivedDate\": \"01/05/2021\",\r\n    \"ReceivedNEFT_RTG\": \"yes\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3063/api/aggregator/buildupdatetorepaument",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"aggregator",
+								"buildupdatetorepaument"
+							],
+							"query": [
+								{
+									"key": "_id",
+									"value": "61dedce68134614fac2d24cc",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Practo",
+			"item": [
+				{
+					"name": "getPractoDashboard",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJkaWdpc3BhcnNoIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDc4NDQ0NjQuOTIxLCJpYXQiOjE2NDI2NjA0NjR9.KcmFFng1PKfFh57mL0660QKA2Hny4pjHe9ibMmSIOJQ",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/patient/getPractoDashboard",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"patient",
+								"getPractoDashboard"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAllInvoices",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJkaWdpc3BhcnNoIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDc4NDQ0NjQuOTIxLCJpYXQiOjE2NDI2NjA0NjR9.KcmFFng1PKfFh57mL0660QKA2Hny4pjHe9ibMmSIOJQ",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/patient/getAllInvoices",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"patient",
+								"getAllInvoices"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getInvoiceById",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJkaWdpc3BhcnNoIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDc4NDQ0NjQuOTIxLCJpYXQiOjE2NDI2NjA0NjR9.KcmFFng1PKfFh57mL0660QKA2Hny4pjHe9ibMmSIOJQ",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/patient/getInvoiceById?_id=6177ddb84424d320e0143758",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"patient",
+								"getInvoiceById"
+							],
+							"query": [
+								{
+									"key": "_id",
+									"value": "6177ddb84424d320e0143758"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getProductByOrg",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTU2YWY2MDYwY2ZkYTQ1MjhjYTg3NGUiLCJyb2xlIjoiQWdncmVnYXRvciIsIm5hbWUiOiJQcmFjdG8iLCJvcmdhbml6YXRpb25JZCI6IjYxNTZlMDZkOTVjZDYwMDZkY2NjMTZlMCIsImV4cCI6MTY0ODIxMzAwOS42NjYsImlhdCI6MTY0MzAyOTAwOX0.pJbCJwtwWkUJXg2iAR6MTZwYmrAFE2zYtxZryUPB0KU",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/patient/getProductByOrg",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"patient",
+								"getProductByOrg"
+							],
+							"query": [
+								{
+									"key": "_id",
+									"value": "6156e06d95cd6006dccc16e1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "postPatientTermLoan",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJkaWdpc3BhcnNoIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDc4NDQ0NjQuOTIxLCJpYXQiOjE2NDI2NjA0NjR9.KcmFFng1PKfFh57mL0660QKA2Hny4pjHe9ibMmSIOJQ",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"isInsured\": \"true\",\r\n        \"patientName\": \"kailash\",\r\n        \"borrowerName\": \"wahid\",\r\n        \"relation\": \"No\",\r\n        \"dateOfBirth\": \"2021-05-02\",\r\n        \"contactNumber\": 8602349565,\r\n        \"emailId\": \"Kai@gmail.com\",\r\n        \"occupation\": \"Bussiness\",\r\n        \"permanentAddress\": \"Mandir\",\r\n        \"currentAddress\": \"Bhopal\",\r\n        \"permanentPinCode\": 450321,\r\n        \"permanentCity\": \"Bhopal\",\r\n        \"permanentState\": \"MadhyaPradesh\",\r\n        \"currentPinCode\": 450311,\r\n        \"currentCity\": \"Indore\",\r\n        \"currentState\": \"Maharastra\",\r\n        \"companyName\": \"IT\",\r\n        \"totalIncome\": 45000,\r\n        \"loanAmount\": 55000,\r\n        \"referenceName\": \"Rohit\",\r\n        \"contactNoRefPerson\": 8084520135,\r\n        \"relationship\": \"unmarried\",\r\n        \"emailIdRefPerson\": \"rohit@gmail.com\",\r\n        \"hospitalName\": \"NehruHospital\",\r\n        \"bankAssociated\": \"officer\",\r\n        \"branch\": \"Bhopal\",\r\n        \"accountNumber\": 9301000154545,\r\n        \"IFSCCode\": \"450123465455fd45\",\r\n        \"scheme\": 80458456455,\r\n        \"interest\": 10,\r\n        \"processingFees\": 45000,\r\n        \"uploadAadharFront\": \"yes\",\r\n        \"uploadAadharBack\": \"yes\",\r\n        \"uploadPAN\": \"5ff5d54d54df\",\r\n        \"uploadProof\": \"Success\",\r\n        \"uploadCancelledCheque\": \"Success\",\r\n        \"uploadIncomeProof\": \"done\",\r\n        \"uploadHospitalBill\": \"receive\",\r\n        \"uploadBankStatement\": \"receive\",\r\n        \"uploadInsurancePolicy\": \"receive\",\r\n        \"uploadOtherDoc\": \"receive\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3063/api/patient/postPatientTermLoan?_id=61ee792dc4856f4a4c891b06",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"patient",
+								"postPatientTermLoan"
+							],
+							"query": [
+								{
+									"key": "_id",
+									"value": "61ee792dc4856f4a4c891b06"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "editInvoice",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJkaWdpc3BhcnNoIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDc4NDQ0NjQuOTIxLCJpYXQiOjE2NDI2NjA0NjR9.KcmFFng1PKfFh57mL0660QKA2Hny4pjHe9ibMmSIOJQ",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"isInsured\": \"false\",\r\n        \"patientName\": \"kailash\",\r\n        \"borrowerName\": \"wahid\",\r\n        \"relation\": \"No\",\r\n        \"dateOfBirth\": \"2021-05-02\",\r\n        \"contactNumber\": 8602349565,\r\n        \"emailId\": \"Kai@gmail.com\",\r\n        \"occupation\": \"Bussiness\",\r\n        \"permanentAddress\": \"Mandir\",\r\n        \"currentAddress\": \"Bhopal\",\r\n        \"permanentPinCode\": 450321,\r\n        \"permanentCity\": \"Bhopal\",\r\n        \"permanentState\": \"MadhyaPradesh\",\r\n        \"currentPinCode\": 450311,\r\n        \"currentCity\": \"Indore\",\r\n        \"currentState\": \"Maharastra\",\r\n        \"companyName\": \"IT\",\r\n        \"totalIncome\": 45000,\r\n        \"loanAmount\": 55000,\r\n        \"referenceName\": \"Rohit\",\r\n        \"contactNoRefPerson\": 8084520135,\r\n        \"relationship\": \"unmarried\",\r\n        \"emailIdRefPerson\": \"rohit@gmail.com\",\r\n        \"hospitalName\": \"NehruHospital\",\r\n        \"bankAssociated\": \"officer\",\r\n        \"branch\": \"Bhopal\",\r\n        \"accountNumber\": 9301000154545,\r\n        \"IFSCCode\": \"450123465455fd45\",\r\n        \"scheme\": 80458456455,\r\n        \"interest\": 10,\r\n        \"processingFees\": 45000,\r\n        \"uploadAadharFront\": \"No\",\r\n        \"uploadAadharBack\": \"No\",\r\n        \"uploadPAN\": \"5ff5d54d54df\",\r\n        \"uploadProof\": \"Success\",\r\n        \"uploadCancelledCheque\": \"Success\",\r\n        \"uploadIncomeProof\": \"done\",\r\n        \"uploadHospitalBill\": \"receive\",\r\n        \"uploadBankStatement\": \"receive\",\r\n        \"uploadInsurancePolicy\": \"receive\",\r\n        \"uploadOtherDoc\": \"receive\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3063/api/patient/editInvoice?_id=617a92174424d320e0143fe3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"patient",
+								"editInvoice"
+							],
+							"query": [
+								{
+									"key": "_id",
+									"value": "617a92174424d320e0143fe3"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Lender",
+			"item": [
+				{
+					"name": "getDashboardForLender",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJnYXJ2aXQiLCJvcmdhbml6YXRpb25JZCI6IjYxNTZlMDZkOTVjZDYwMDZkY2NjMTZlMSIsImV4cCI6MTY0ODI3MTg0MS4zMjUsImlhdCI6MTY0MzA4Nzg0MX0.XXn7F2oIKstugSxQz5El2ZkJTp5MMW7vWI9D1Uh6Knw",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/lender/getDashboardForLender",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"lender",
+								"getDashboardForLender"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getInvoiceGraphToLender",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJnYXJ2aXQiLCJvcmdhbml6YXRpb25JZCI6IjYxNTZlMDZkOTVjZDYwMDZkY2NjMTZlMSIsImV4cCI6MTY0ODI3MTg0MS4zMjUsImlhdCI6MTY0MzA4Nzg0MX0.XXn7F2oIKstugSxQz5El2ZkJTp5MMW7vWI9D1Uh6Knw",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/lender/getInvoiceGraphToLender",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"lender",
+								"getInvoiceGraphToLender"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getLenderGraphAmount",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJnYXJ2aXQiLCJvcmdhbml6YXRpb25JZCI6IjYxNTZlMDZkOTVjZDYwMDZkY2NjMTZlMSIsImV4cCI6MTY0ODI3MTg0MS4zMjUsImlhdCI6MTY0MzA4Nzg0MX0.XXn7F2oIKstugSxQz5El2ZkJTp5MMW7vWI9D1Uh6Knw",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/lender/getLenderGraphAmount",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"lender",
+								"getLenderGraphAmount"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getLenderGraphOne",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJnYXJ2aXQiLCJvcmdhbml6YXRpb25JZCI6IjYxNTZlMDZkOTVjZDYwMDZkY2NjMTZlMSIsImV4cCI6MTY0ODI3MTg0MS4zMjUsImlhdCI6MTY0MzA4Nzg0MX0.XXn7F2oIKstugSxQz5El2ZkJTp5MMW7vWI9D1Uh6Knw",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/lender/getLenderGraphOne",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"lender",
+								"getLenderGraphOne"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getSecondPieGraphForLender",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJnYXJ2aXQiLCJvcmdhbml6YXRpb25JZCI6IjYxNTZlMDZkOTVjZDYwMDZkY2NjMTZlMSIsImV4cCI6MTY0ODI3MTg0MS4zMjUsImlhdCI6MTY0MzA4Nzg0MX0.XXn7F2oIKstugSxQz5El2ZkJTp5MMW7vWI9D1Uh6Knw",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/lender/getSecondPieGraphForLender",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"lender",
+								"getSecondPieGraphForLender"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAllInvoicesToLender",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJnYXJ2aXQiLCJvcmdhbml6YXRpb25JZCI6IjYxNTZlMDZkOTVjZDYwMDZkY2NjMTZlMSIsImV4cCI6MTY0ODI3MTg0MS4zMjUsImlhdCI6MTY0MzA4Nzg0MX0.XXn7F2oIKstugSxQz5El2ZkJTp5MMW7vWI9D1Uh6Knw",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/lender/getAllInvoicesToLender?pageNumber=2&pageSize=2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"lender",
+								"getAllInvoicesToLender"
+							],
+							"query": [
+								{
+									"key": "pageNumber",
+									"value": "2"
+								},
+								{
+									"key": "pageSize",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getInvoiceByIdToLender",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJnYXJ2aXQiLCJvcmdhbml6YXRpb25JZCI6IjYxNTZlMDZkOTVjZDYwMDZkY2NjMTZlMSIsImV4cCI6MTY0ODI3MTg0MS4zMjUsImlhdCI6MTY0MzA4Nzg0MX0.XXn7F2oIKstugSxQz5El2ZkJTp5MMW7vWI9D1Uh6Knw",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/lender/getInvoiceByIdToLender?_id=61dedce68134614fac2d24cc",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"lender",
+								"getInvoiceByIdToLender"
+							],
+							"query": [
+								{
+									"key": "_id",
+									"value": "61dedce68134614fac2d24cc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getHospitalToLender",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJnYXJ2aXQiLCJvcmdhbml6YXRpb25JZCI6IjYxNTZlMDZkOTVjZDYwMDZkY2NjMTZlMSIsImV4cCI6MTY0ODI3MTg0MS4zMjUsImlhdCI6MTY0MzA4Nzg0MX0.XXn7F2oIKstugSxQz5El2ZkJTp5MMW7vWI9D1Uh6Knw",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/lender/getHospitalToLender?pageNumber=1&pageSize=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"lender",
+								"getHospitalToLender"
+							],
+							"query": [
+								{
+									"key": "pageNumber",
+									"value": "1"
+								},
+								{
+									"key": "pageSize",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getHospitalByIdToLender",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJnYXJ2aXQiLCJvcmdhbml6YXRpb25JZCI6IjYxNTZlMDZkOTVjZDYwMDZkY2NjMTZlMSIsImV4cCI6MTY0ODI3MTg0MS4zMjUsImlhdCI6MTY0MzA4Nzg0MX0.XXn7F2oIKstugSxQz5El2ZkJTp5MMW7vWI9D1Uh6Knw",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/lender/getHospitalByIdToLender?_id=61dedce68134614fac2d24cc",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"lender",
+								"getHospitalByIdToLender"
+							],
+							"query": [
+								{
+									"key": "_id",
+									"value": "61dedce68134614fac2d24cc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getByIdToLender",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJnYXJ2aXQiLCJvcmdhbml6YXRpb25JZCI6IjYxNTZlMDZkOTVjZDYwMDZkY2NjMTZlMSIsImV4cCI6MTY0ODQ0NDAzOS4yMiwiaWF0IjoxNjQzMjYwMDM5fQ.S1wtsewexqZaI88E0595AL5_GYGB69RGwinRCZ_Y7qg",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/lender/getByIdToLender",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"lender",
+								"getByIdToLender"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "editLenderProfile",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJnYXJ2aXQiLCJvcmdhbml6YXRpb25JZCI6IjYxNTZlMDZkOTVjZDYwMDZkY2NjMTZlMSIsImV4cCI6MTY0ODQ0NDAzOS4yMiwiaWF0IjoxNjQzMjYwMDM5fQ.S1wtsewexqZaI88E0595AL5_GYGB69RGwinRCZ_Y7qg",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\" : \"Duke\",\r\n     \"mobileNumber\": 8765984587,\r\n     \"address\":[{}] ,\r\n     \"AadharNumber\": 852136549852,\r\n     \"AccountName\": \"saving acc\",\r\n     \"AccountNumber\": 10002358587878,\r\n     \"NameOfTheBank\": \"sbi\",\r\n     \"IFSCcode\": \"dfdf5fdf44f\",\r\n     \"Branch\": \"Bhopal\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3063/api/lender/editLenderProfile",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"lender",
+								"editLenderProfile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updatePassword",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJnYXJ2aXQiLCJvcmdhbml6YXRpb25JZCI6IjYxNTZlMDZkOTVjZDYwMDZkY2NjMTZlMSIsImV4cCI6MTY0ODQ0NDAzOS4yMiwiaWF0IjoxNjQzMjYwMDM5fQ.S1wtsewexqZaI88E0595AL5_GYGB69RGwinRCZ_Y7qg",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"password\": \"Digisparsh@123\"\r\n} ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3063/api/lender/updatePassword?_id=61dedce68134614fac2d24cc",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"lender",
+								"updatePassword"
+							],
+							"query": [
+								{
+									"key": "_id",
+									"value": "61dedce68134614fac2d24cc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getTransactionDataforLender",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJEdWtlIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDg0NjI2ODMuNzg5LCJpYXQiOjE2NDMyNzg2ODN9.A0FRJDuR3jnPRcJ0M1GlcBNPq3yzzU39L5BL_JL0C9Q",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/lender/getTransactionDataforLender?_id=6094eb34d12f29083cdb1185",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"lender",
+								"getTransactionDataforLender"
+							],
+							"query": [
+								{
+									"key": "_id",
+									"value": "6094eb34d12f29083cdb1185"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "postCreditLimitFromLender",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJEdWtlIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDg0NzMxNzAuNTIxLCJpYXQiOjE2NDMyODkxNzB9.GprwhHl1cNUInyY-59m3rvbcc5sjGe-aSbIF5ajiMc8",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"ExistingCreditLimit\": 5,\r\n                \"LTV\": 4, \r\n                \"LenderTenure\": 5, \r\n                \"HospitalROI\": 456,\r\n                \"AggregatorROI\": 546,\r\n                \"AggregetorLoan\": 5,\r\n                \"HospitalLoan\": 4,\r\n                \"LenderROI\": 546,\r\n                \"LComment\": \"Great\",\r\n                \"LStatus\": \"positive\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3063/api/lender/postCreditLimitFromLender?_id=61dedce68134614fac2d24cc",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"lender",
+								"postCreditLimitFromLender"
+							],
+							"query": [
+								{
+									"key": "_id",
+									"value": "61dedce68134614fac2d24cc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "calculateInterestfromLender",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJEdWtlIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDg0NjI2ODMuNzg5LCJpYXQiOjE2NDMyNzg2ODN9.A0FRJDuR3jnPRcJ0M1GlcBNPq3yzzU39L5BL_JL0C9Q",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"_id\": \"612e223ddb8e091b687a4235\",\r\n    \"ApporvedAmount\": 5000\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3063/api/lender/calculateInterestfromLender?_id=6094eb34d12f29083cdb1185",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"lender",
+								"calculateInterestfromLender"
+							],
+							"query": [
+								{
+									"key": "_id",
+									"value": "6094eb34d12f29083cdb1185"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "postFromLender",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJEdWtlIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDg0NzMxNzAuNTIxLCJpYXQiOjE2NDMyODkxNzB9.GprwhHl1cNUInyY-59m3rvbcc5sjGe-aSbIF5ajiMc8",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"_id\": \"612e223ddb8e091b687a4235\",\r\n                \"LenderComment\": \"good\",\r\n                \"ApporvedAmount\" : 6000,\r\n                \"PFFees\": 500,\r\n                \"Interest\": 10,\r\n                \"AmountToBePaid\": 500\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3063/api/lender/postFromLender",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"lender",
+								"postFromLender"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "postRejectedFromLender",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJEdWtlIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDg0NzMxNzAuNTIxLCJpYXQiOjE2NDMyODkxNzB9.GprwhHl1cNUInyY-59m3rvbcc5sjGe-aSbIF5ajiMc8",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"_id\" : \"612e223ddb8e091b687a4235\",\r\n    \"LenderComment\": \"Done\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3063/api/lender/postRejectedFromLender",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"lender",
+								"postRejectedFromLender"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "repaymentConfirmation",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJEdWtlIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDg1Mjg0NTguNTMsImlhdCI6MTY0MzM0NDQ1OH0.hzy6t663hrJzenasfITy_RyqR6VQAmf5tPuKADnoLV8",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/lender/repaymentConfirmation?_id=612e223ddb8e091b687a4235",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"lender",
+								"repaymentConfirmation"
+							],
+							"query": [
+								{
+									"key": "_id",
+									"value": "612e223ddb8e091b687a4235"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "fundedFromLenderDisbursed",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJEdWtlIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDg1Mjg0NTguNTMsImlhdCI6MTY0MzM0NDQ1OH0.hzy6t663hrJzenasfITy_RyqR6VQAmf5tPuKADnoLV8",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n     \"_id\": \"615af8ad0d12352618e3498d\",\r\n      \"AmountDisbursed\": 300,\r\n       \"NEFT_RTG\": \"Done\",\r\n        \"PaymentDate\": \"02-05-2022\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3063/api/lender/fundedFromLenderDisbursed?_id=615af8ad0d12352618e3498d",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"lender",
+								"fundedFromLenderDisbursed"
+							],
+							"query": [
+								{
+									"key": "_id",
+									"value": "615af8ad0d12352618e3498d"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Hospital",
+			"item": [
+				{
+					"name": "getDashboardForHospital",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJEdWtlIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDg1NDM5NTYuMzQxLCJpYXQiOjE2NDMzNTk5NTZ9.-NO6ctxl-VZCTZUEdiPOTuigXPG6KrEOZs_J-82P4fc",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/hospital/getDashboardForHospital",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"hospital",
+								"getDashboardForHospital"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getInvoiceGraphToHospital",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJEdWtlIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDg1NDM5NTYuMzQxLCJpYXQiOjE2NDMzNTk5NTZ9.-NO6ctxl-VZCTZUEdiPOTuigXPG6KrEOZs_J-82P4fc",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/hospital/getInvoiceGraphToHospital",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"hospital",
+								"getInvoiceGraphToHospital"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getHospitalGraphAmount",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJEdWtlIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDg1NDM5NTYuMzQxLCJpYXQiOjE2NDMzNTk5NTZ9.-NO6ctxl-VZCTZUEdiPOTuigXPG6KrEOZs_J-82P4fc",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/hospital/getHospitalGraphAmount",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"hospital",
+								"getHospitalGraphAmount"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getHospitalGraphOne",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJEdWtlIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDg1NDM5NTYuMzQxLCJpYXQiOjE2NDMzNTk5NTZ9.-NO6ctxl-VZCTZUEdiPOTuigXPG6KrEOZs_J-82P4fc",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/hospital/getHospitalGraphOne",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"hospital",
+								"getHospitalGraphOne"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getSecondPieGraphForHospital",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJEdWtlIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDg1NDM5NTYuMzQxLCJpYXQiOjE2NDMzNTk5NTZ9.-NO6ctxl-VZCTZUEdiPOTuigXPG6KrEOZs_J-82P4fc",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/hospital/getSecondPieGraphForHospital",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"hospital",
+								"getSecondPieGraphForHospital"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getFundedInvoiceToHospital",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJEdWtlIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDg1NDM5NTYuMzQxLCJpYXQiOjE2NDMzNTk5NTZ9.-NO6ctxl-VZCTZUEdiPOTuigXPG6KrEOZs_J-82P4fc",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/hospital/getFundedInvoiceToHospital",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"hospital",
+								"getFundedInvoiceToHospital"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "buildupdatetorepaument",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJEdWtlIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDg1NDM5NTYuMzQxLCJpYXQiOjE2NDMzNTk5NTZ9.-NO6ctxl-VZCTZUEdiPOTuigXPG6KrEOZs_J-82P4fc",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"_ids\": [{}],\r\n     \"PaymentReceivedDate\": \"02-05-2021\",\r\n      \"ReceivedNEFT_RTG\": \"Recieved\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3063/api/hospital/buildupdatetorepaument",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"hospital",
+								"buildupdatetorepaument"
+							],
+							"query": [
+								{
+									"key": "_id",
+									"value": "6094eb34d12f29083cdb1185",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getByIdToHospital",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJEdWtlIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDg1NDM5NTYuMzQxLCJpYXQiOjE2NDMzNTk5NTZ9.-NO6ctxl-VZCTZUEdiPOTuigXPG6KrEOZs_J-82P4fc",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/hospital/getByIdToHospital",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"hospital",
+								"getByIdToHospital"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAllInvoicesToHospital",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJEdWtlIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDg1NDM5NTYuMzQxLCJpYXQiOjE2NDMzNTk5NTZ9.-NO6ctxl-VZCTZUEdiPOTuigXPG6KrEOZs_J-82P4fc",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/hospital/getAllInvoicesToHospital",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"hospital",
+								"getAllInvoicesToHospital"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getTPAwithInsurer",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJEdWtlIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDg1NDM5NTYuMzQxLCJpYXQiOjE2NDMzNTk5NTZ9.-NO6ctxl-VZCTZUEdiPOTuigXPG6KrEOZs_J-82P4fc",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/hospital/getTPAwithInsurer",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"hospital",
+								"getTPAwithInsurer"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getInsurance",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWRlZGNlNjgxMzQ2MTRmYWMyZDI0Y2MiLCJyb2xlIjoidXNlciIsIm5hbWUiOiJEdWtlIiwib3JnYW5pemF0aW9uSWQiOiI2MTU2ZTA2ZDk1Y2Q2MDA2ZGNjYzE2ZTEiLCJleHAiOjE2NDg1NDM5NTYuMzQxLCJpYXQiOjE2NDMzNTk5NTZ9.-NO6ctxl-VZCTZUEdiPOTuigXPG6KrEOZs_J-82P4fc",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3063/api/hospital/getInsurance",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3063",
+							"path": [
+								"api",
+								"hospital",
+								"getInsurance"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
